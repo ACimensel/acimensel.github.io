@@ -35,6 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
+    --gray-dark: #444444;
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
@@ -404,8 +405,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 85%, rgb(0, 0, 0) 100%),
+            url('./images/windrise-background-4k.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -528,11 +529,11 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 35%;
+        flex: 0 0 60%;
     }
     
     .about__photo-container {
-        flex: 0.5;
+        flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
@@ -584,81 +585,4 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
-}
-
-/* --------------------------------------- */
-/* ----- Parallax ----- */
-/* --------------------------------------- */
-
-body {
-    margin: 0;
-    font-family: Helvetica, Sans-serif;
-    overflow-x: hidden;
-}
-
-h1 {
-    text-align: center;
-}
-
-.page {
-    width: 100vw;
-    height: 100vh;
-    perspective: 1px;
-    perspective-origin: center center;
-    overflow-x: hidden;
-}
-
-.overflow {
-    position: absolute;
-    width: 100vw;
-    height: 80vh;
-    top: 100vh;
-    background-color: #FFF;
-}
-
-#parallax {
-    transform-style: preserve-3d;
-    height: 120vh;
-}
-
-.keyart_layer {
-    background-position: bottom center;
-    background-size: cover;
-    background-repeat: repeat-x;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-#keyart-0 {
-    background-image: url('https://www.firewatchgame.com/images/parallax/parallax0.png');
-    background-color: #ffaf1b;
-    transform: translate3d(-11px, -46px, -1.3px) scale(2.3);
-}
-
-#keyart-1 {
-    background-image: url('http://www.firewatchgame.com/images/parallax/parallax1.png');
-    transform: translate3d(0, -47px, -.7px) scale(1.7);
-}
-
-#keyart-2 {
-    background-image: url('http://www.firewatchgame.com/images/parallax/parallax2.png');
-    transform: translate3d(0, -98px, -.4px) scale(1.6);
-}
-
-#keyart-3 {
-    background-image: url('http://www.firewatchgame.com/images/parallax/parallax3.png');
-    transform: translate3d(0, -2px, -.1px) scale(1.1);
-}
-
-#keyart-4 {
-    background-image: url('http://www.firewatchgame.com/images/parallax/parallax4.png');
-    transform: translate3d(0, 35px, .1px) scale(.9);
-}
-
-#keyart-5 {
-    background-image: url('http://www.firewatchgame.com/images/parallax/parallax5.png');
-    transform: translate3d(0, 84px, .2px) scale(.8);
 }
