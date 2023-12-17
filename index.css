@@ -481,20 +481,20 @@ body:not(.user-is-tabbing) a:focus {
   z-index: -1; /* Ensure it's behind the content */
 }
 
-.spacer {
+/* .spacer {
     position: relative;
     width: 100vw;
-    height: 10rem; /* Adjust the height of the spacer as needed */
+    height: 10rem;
     margin-left: calc(50% - 50vw);
 }
 
 .spacer_line_bottom {
     position: relative;
     width: 100vw;
-    height: 10rem; /* Adjust the height of the spacer as needed */
+    height: 10rem;
     margin-left: calc(50% - 50vw);
     border-bottom: var(--border-light);
-}
+} */
 
 @media(max-width: 900px) {
     .work__box {
@@ -519,7 +519,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 50%;
+    flex: 0 0 60%;
 }
 
 .work__list {
