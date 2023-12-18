@@ -643,16 +643,18 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .video-container {
-  position: relative;
-  max-width: 560px;
-  width: 100%; /* or any other desired width */
-  padding-top: 30%; /* (315 / 560) * 100% = 56.25% */
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.video-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+.video-item {
+    flex: 1 1 auto; /* Minimum width of 560 pixels */
+    max-width: 100%; /* Take up full width if less than 560 pixels */
+    margin: 8px; /* Adjust the margin as needed */
+    min-height: 315px; /* Set your desired minimum height */
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 100%;
 }
