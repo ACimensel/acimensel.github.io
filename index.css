@@ -644,8 +644,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .video-container {
   position: relative;
+  max-width: 560px;
   width: 100%; /* or any other desired width */
-  padding-top: 56.25%; /* (315 / 560) * 100% = 56.25% */
+  padding-top: 30%; /* (315 / 560) * 100% = 56.25% */
 }
 
 .video-container iframe {
