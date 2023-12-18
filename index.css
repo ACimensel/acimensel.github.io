@@ -120,8 +120,8 @@ section {
 }
 
 img {
-    object-fit: contain;
-    max-width: 100%;
+    max-width: 560px;
+    height: auto; /* This ensures the aspect ratio is maintained */
 }
 
 /* --------------------------------------- */
