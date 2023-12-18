@@ -195,21 +195,38 @@
           <!-- Project #6 --->
           <div class="work__box">
             <div class="work__text">
-              <h3>Multiplayer Snake Game [Python, UDP]</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eius.
-              </p>
+              <h3>Multiplayer Snake Game [Python, TCP]</h3>
 
-              <ul class="work__list">
-                <a href="https://github.com/ACimensel/Python-Multiplayer-Snake">GitHub Repo</a><br>
-              </ul>
-            </div>
-            
-            <div class="work__image-box">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/F86CVRletY8?si=7IY-a4ubmxw8FbyL"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+                allowfullscreen>
+              </iframe>
+
+              <p>
+                Made an online multiplayer game where two players control snakes in a shared 2D grid, consuming diamonds to grow and score points. 
+                The game introduces strategic gameplay, and the objective is to outscore the opponent while avoiding collisions.
+                <br><br>
+                Client socket:
+                <img src="./images/snake1.PNG" class="work__image" />
+                <br><br>
+                Server socket:
+                <img src="./images/snake2.PNG" class="work__image" />
+                <br><br>
+                Handling shared object:
+                <img src="./images/snake3.PNG" class="work__image" />
+              </p>
+
+              <ul class="work__list">
+                <b>Key Features:</b>
+                <li>Implemented a client-server network architecture to separate the responsiblities of managing the game state/handling shared 
+                  resources from displaying UI/receiving inputs</li>
+                <li>Client code responsible for obtaining player inputs and sending them to the server, 
+                  along with receiving game state from server and displaying it on screen</li>
+                <li>Server code that enables one of the players to act as the server, accommodate up to two connections, managing game state, 
+                  shared resources and player interactions</li>
+                <br><a href="https://github.com/ACimensel/Python-Multiplayer-Snake">GitHub Repo</a>
+              </ul>
             </div>
           </div>
 
@@ -217,6 +234,12 @@
           <div class="work__box">
             <div class="work__text">
               <h3>Catch'Em [Java, XML]</h3>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/9QXVfPRTNas?si=RHG-WzkjUPOxtwvW"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
               <p>
                 A Pokemon-themed Mine Seeker game where players tap cells to catch randomly placed Pokemon. Inspecting cells reveals
                 hidden Pokemon counts in the same row and column, helping players make strategic choices. The objective is to catch all
@@ -230,13 +253,6 @@
                 <li>Model-View-Controller (MVC) pattern is used to keep game logic separate class from game UI</li>
                 <br><a href="https://github.com/ACimensel/Catch-Em">GitHub Repo</a>
               </ul>
-            </div>
-            
-            <div class="work__image-box">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/9QXVfPRTNas?si=RHG-WzkjUPOxtwvW"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
             </div>
           </div>
 

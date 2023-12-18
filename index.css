@@ -519,7 +519,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 60%;
+    flex: 0 0 100%;
 }
 
 .work__list {
