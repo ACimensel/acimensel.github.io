@@ -32,7 +32,7 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
           <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
@@ -62,7 +62,7 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              I am a game developer with expertise in C#, Unity, and C++ with 2+ years of experience, who's passionate about 
+              I am a game developer with expertise in C#, Unity, and C++ with 2+ years of experience, who is passionate about 
               crafting immersive gaming experiences. From contributing to a multi-platform live service mobile game, 
               <a href="https://play.google.com/store/apps/details?id=com.gamehivecorp.taptitans2&hl=en&gl=US" target="_blank">Tap Titans 2</a>, 
               to exploring the potential of virtual reality in emotion regulation, my journey reflects a commitment to pushing 
@@ -79,10 +79,10 @@
       </div>
     </section>
 
-    <!-- ***** Work ***** -->
+    <!-- ***** Projects ***** -->
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Projects</h2>
         <div class="work__boxes">
           <!-- Each div with the work__box class is a project. -->
 
@@ -102,11 +102,29 @@
                 allowfullscreen></iframe>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eius.
+                In this atmospheric 2D soulslike side-scroller which draws inspiration from titles like Blasphemous, I served as the lead programmer in a 5-member team. 
+                My responsibilities encompassed crafting the player and enemy controllers, finite state machines for both player and enemies, enemy AI behaviour and 
+                developing the combat mechanics. As the architect behind the combat system, I designed features for hit registration, damage calculation, and item drops. 
+                Additionally, I transformed our artists static sprites into animations and tilemaps, contributed to level design, and constructed the game environments.
+
               </p>
 
               <ul class="work__list">
-                <a href="https://drive.google.com/file/d/1RdtcEERdEnPg3Zva91uaFc3M6ymF15gb/view">Game Design Document (GDD)</a><br>
+                <b>Key Features:</b>
+                <li>Wall jumping & sliding</li>
+                <li>Dash dodge mechanic</li>
+                <li>3 hit melee combo & ranged attacks</li>
+                <li>Shield & attack portal spells</li>
+                <li>Unique enemy AI behaviour</li>
+                <li>Coyote time to improve the jumping experience</li>
+                <li>Hit stops and camera shake to make combat feel more impactful</li>
+                <li>Enemy drops and fly-in pickup on proximity</li>
+                <li>Waypoint system</li>
+                <li>Utilization of tilemaps and spritesheets</li>
+                <li>Persistence of player information and game state across multiple Unity scenes</li>
+                <br>
+                <a href="https://drive.google.com/file/d/1RdtcEERdEnPg3Zva91uaFc3M6ymF15gb/view">Game Design Document</a>
+                <br>
                 <a href="https://github.com/ACimensel/GuardianOfTheForest">GitHub Repo</a>
               </ul>
 
@@ -121,7 +139,7 @@
           <!-- Project #2 --->
           <div class="work__box">
             <div class="work__text">
-              <h3>ForeSight [Unity, C#]</h3>
+              <h3>ForeSight [Unity, C#, VR]</h3>
 
               <iframe width="560" height="315" src="https://www.youtube.com/embed/RRAsSYXVTfA?si=Z5teF4xEjqADiKEg"
                 title="YouTube video player" frameborder="0"
@@ -135,20 +153,20 @@
 
               <p>
                 VR project designed to make the player reflect on humanity’s devastating impact on nature and its habitants, as
-                well as motivating the them to be proactive about the health of our environment in the present. Through the unique 
+                well as motivating the player to be proactive about the health of our environment in the present. Through the unique 
                 mechanic of switching between present and future timelines, immersants will be able to see and interact with a desolate 
-                environment that was once beautiful and lively. Along with the addition of a friendly fox companion who suffers the 
-                same fate as the environment between timelines.
+                environment that was once beautiful and lively. The friendly fox companion also suffers the same fate as the environment between timelines.
               </p>
 
               <ul class="work__list">
                 <b>Key Features:</b>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
+                <li>VR controls including headset and handheld tracking, along with custom controls</li>
+                <li>Timeline switching mechanic</li>
+                <li>Fox companions AI behaviour</li>
+                <li>Robot AI behaviour</li>
+                <li>Post processing effects</li>
                 <br>
-                <a href="https://drive.google.com/file/d/1ZPs8-gY4r-YW5ZngqrlYYYH3XYhK7oN_/view">Game Design Document (GDD)</a>
+                <a href="https://drive.google.com/file/d/1ZPs8-gY4r-YW5ZngqrlYYYH3XYhK7oN_/view">Game Design Document</a>
               </ul>
 
               <div class="work__links">
@@ -158,35 +176,6 @@
               </div>
             </div>
           </div>
-          
-          <!-- Project #X --->
-          <!-- <div class="work__box">
-            <div class="work__text">
-              <h3>VRChat World [Unity, Udon Graph]</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-          
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div> -->
 
           <!-- Project #3 --->
           <div class="work__box">
@@ -196,13 +185,13 @@
               <img src="./images/tetris_project.png" class="work__image" />
 
               <p>
-                This is a WebGL Tetris game I created for my computer graphics course, blending classic Tetris gameplay with modern rendering concepts. 
-                Using JavaScript and OOP, I implemented features like random tetromino generation, smooth movements, and rendering with WebGL.
+                I created this WebGL Tetris game for my computer graphics course, blending classic Tetris gameplay with modern rendering concepts. 
+                Using JavaScript and Object-Oriented Programming (OOP), I implemented features like random tetromino generation, smooth movements, and rendering with WebGL.
               </p>
 
               <ul class="work__list">
                 <b>Key Features:</b>
-                <li>Implemented a system for generating and placing tetrominoes randomly using JavaScript and Object-Oriented Programming techniques</li>
+                <li>Implemented a system for generating and placing tetrominoes randomly using JavaScript and OOP techniques</li>
                 <li>Created functions for checking the validity of a tetromino's position on the game board</li>
                 <li>Implemented game mechanics, including block movement, rotation, and line clearing</li>
                 <li>Designed a system for converting Tetromino positions and colors into efficient 1D buffers, optimizing rendering performance</li>
@@ -277,7 +266,7 @@
                 <b>Key features:</b>
                 <li>Options menu that allows for different board sizes and number of mines</li>
                 <li>Number of games played and high scores are saved for each possible configuration between application runs</li>
-                <li>Model-View-Controller (MVC) pattern is used to keep game logic separate class from game UI</li>
+                <li>Model-View-Controller (MVC) pattern used to keep game logic separate class from game UI</li>
                 <br>
                 <a href="https://github.com/ACimensel/Catch-Em">GitHub Repo</a>
               </ul>
@@ -339,7 +328,6 @@
           <br>
           My C.V. is available upon request.
         </p>
-        <!-- <a href="mailto:acimense@gmail.com" class="btn">acimense@gmail.com</a> -->
       </div>
     </div>
   </section>
