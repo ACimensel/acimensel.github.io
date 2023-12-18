@@ -637,3 +637,13 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
+/* --------------------------------------- */
+/* ----- Videos ----- */
+/* --------------------------------------- */
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
