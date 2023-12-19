@@ -64,7 +64,7 @@
 }
 
 html {
-    font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
+    font-size: 62.5%;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -121,7 +121,7 @@ section {
 
 img {
     max-width: 560px;
-    height: auto; /* This ensures the aspect ratio is maintained */
+    height: auto;
 }
 
 /* --------------------------------------- */
@@ -574,6 +574,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo-container {
+    display: flex;
     margin-bottom: var(--gutter-normal);
 }
 
@@ -584,8 +585,12 @@ body:not(.user-is-tabbing) a:focus {
     
     .about__photo-container {
         flex: 1;
-        margin: 0 var(--gutter-huge) 0 0;
+        margin: 0 var(--gutter-medium) 0 0;
     }
+}
+
+.about__photo {
+    width: 100%;
 }
 
 /* --------------------------------------- */
